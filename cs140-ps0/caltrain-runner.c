@@ -91,7 +91,7 @@ main()
 
 	// Create a bunch of 'passengers', each in their own thread.
 	int i;
-	const int total_passengers = 1000;
+	const int total_passengers = 500;
 	int passengers_left = total_passengers;
 	for (i = 0; i < total_passengers; i++) {
 		pthread_t tid;
