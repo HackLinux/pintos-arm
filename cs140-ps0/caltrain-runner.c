@@ -111,7 +111,7 @@ main()
 
 	// Tons of random tests.
 	int total_passengers_boarded = 0;
-	const int max_free_seats_per_train = 50;
+	const int max_free_seats_per_train = 100;
 	int pass = 0;
 	while (passengers_left > 0) {
 		_alarm(2, "Some more complicated issue appears to have caused passengers "
